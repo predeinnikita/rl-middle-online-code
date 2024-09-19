@@ -4,7 +4,7 @@
       "id": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
       "username": "user",
       "password": "1111",
-      "is_online": false
+      "is_online": true
     },
     {
       "id": "d7c8b657-17cd-4026-9ea7-d729c96c3b41",
@@ -95,6 +95,36 @@
       "from_user": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
       "content": "123123",
       "id": 5
+    },
+    {
+      "channel_id": "1",
+      "from_user": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
+      "content": "adsfsdfsd",
+      "id": 6
+    },
+    {
+      "channel_id": "1",
+      "from_user": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
+      "content": "\nsdfsdf",
+      "id": 7
+    },
+    {
+      "channel_id": "1",
+      "from_user": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
+      "content": "sdfsdf",
+      "id": 8
+    },
+    {
+      "channel_id": "1",
+      "from_user": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
+      "content": "asdfsdf",
+      "id": 9
+    },
+    {
+      "channel_id": "1",
+      "from_user": "a0fbe85b-2716-41f6-b2ca-4918926ce36e",
+      "content": "asd\n",
+      "id": 10
     }
   ],
   "user_channels": [
