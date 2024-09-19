@@ -1,4 +1,4 @@
 <mat-list-item>
-    <span matListItemTitle>{{ userName$ | async }}</span>
+    <span class="username" matListItemTitle>{{ userName$ | async | uppercase }}</span>
     <span matListItemLine>{{ content }}</span>
 </mat-list-item>

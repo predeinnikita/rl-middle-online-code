@@ -1,4 +1,4 @@
-import { AsyncPipe } from '@angular/common'
+import {AsyncPipe, UpperCasePipe} from '@angular/common'
 import { AfterViewInit, ChangeDetectionStrategy, Component, DestroyRef, ElementRef, Input, OnInit } from '@angular/core'
 import { takeUntilDestroyed } from '@angular/core/rxjs-interop'
 import { MatListItem, MatListItemLine, MatListItemTitle } from '@angular/material/list'
@@ -10,12 +10,13 @@ import { UserDataService } from '../../../user/services/user-data.service'
 @Component({
     selector: 'app-message-item',
     standalone: true,
-    imports: [
-        AsyncPipe,
-        MatListItemTitle,
-        MatListItemLine,
-        MatListItem
-    ],
+  imports: [
+    AsyncPipe,
+    MatListItemTitle,
+    MatListItemLine,
+    MatListItem,
+    UpperCasePipe
+  ],
     templateUrl: './message-item.component.html',
     styleUrl: './message-item.component.scss',
     changeDetection: ChangeDetectionStrategy.OnPush,
